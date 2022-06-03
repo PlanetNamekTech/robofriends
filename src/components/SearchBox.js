@@ -1,5 +1,4 @@
 import React from 'react';
-import { robots } from './robots';
 
 
 const SearchBox = ({searchField, searchChange}) => {
@@ -8,7 +7,7 @@ const SearchBox = ({searchField, searchChange}) => {
             <input 
             className='pa3 ba b--green bg-lightest-blue'
             type="search" 
-            placeholder="Search Robots" 
+            placeholder="search robots" 
             onChange={searchChange}
             />
         </div>
