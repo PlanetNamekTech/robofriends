@@ -1,4 +1,5 @@
 import { CHANGE_SEARCH_FIELD, REQUEST_ROBOTS_FAILED, REQUEST_ROBOTS_PENDING, REQUEST_ROBOTS_SUCCESS } from "./constants";
+
 const initialStateSearch = {
   searchField: ''
 }
